@@ -80,10 +80,21 @@ As stipulated by the requirements the following transformations were made to kee
 * Descriptive activity names and labels were used appropriately to increase data readability
 * A separate tidy dataset was created as the final step of data refinement efforts
 
-In addition to the aforementioned mandatory transformations, the feature names have been amended to adhere to naming standards of the R language. That allowed for an elegant use of R languague features, such as data filtering, and an increased code readability. I consider this additional transformation a minor change, which I believe doesn't have an adverse impact on the original information. 
+In addition to the aforementioned mandatory transformations, the feature names have been amended to adhere to naming standards of the R language. That allowed for an elegant use of R languague features, such as column name filtering, and an increased code readability. I consider this additional transformation a minor change, which I believe doesn't have an adverse impact on the original information. 
 
 Feature name adjustment example:
 
 * 'tBodyAcc-mean()-X' has been changed to 'tBodyAcc_mean_X'
 * 'tBodyAcc-std()-Z'  has been changed to 'tBodyAcc_std_Z'
 * etc.
+
+The transformations have been achieved by the [run_analysis.R](https://github.com/zezutom/GetAndCleanDataProject/blob/master/run_analysis.R) script, which:
+
+1. Ensures that all non-standard R packages (dplyr, reshape2) are installed
+2. Defines a number of helper functions to promote code reuse
+3. Downloads the original dataset and verifies its content
+4. Loads activity and label names datasets
+5. Loads training and test datasets and enhances column names with appropriate labels
+6. Merges the testing and the test datasets using dplyr's support for method chaining (pipe operator)
+7. Creates an independent tidy dataset based on mean and standard deviations
+8. Saves the tidy dataset as [tidy_data.csv](https://github.com/zezutom/GetAndCleanDataProject/blob/master/tidy_data.csv) so that it can be easily imported and viewed
