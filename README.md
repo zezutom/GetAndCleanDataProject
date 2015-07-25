@@ -24,7 +24,7 @@ Create an R script called run_analysis.R that does the following:
 ### Project Outcome
 In sync with the requirements this project comprises:
 
-1. [a tidy data set (tidy_data.csv)](https://github.com/zezutom/GetAndCleanDataProject/blob/master/tidy_data.csv) based on the original data set described above
+1. a tidy data set based on the original data set described above, provided both as [txt](https://github.com/zezutom/GetAndCleanDataProject/blob/master/tidy_data.txt) and [csv (nicely formatted on GitHub)](https://github.com/zezutom/GetAndCleanDataProject/blob/master/tidy_data.csv)
 2. [an R script (run_analysis.R)](https://github.com/zezutom/GetAndCleanDataProject/blob/master/run_analysis.R) for performing the analysis 
 3. [a code book (CodeBook.md)](https://github.com/zezutom/GetAndCleanDataProject/blob/master/CodeBook.md) that describes variables, data and any transformations or work performed to clean up the data 
 
