@@ -28,7 +28,6 @@ The captured signals were pre-processed by applying noise filters and then sampl
 ## Feature Selection
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
 
-### Highlights
 * The time domain signals were captured at a constant rate of 50 Hz, prefix 't' denotes time
 * The signals were then filtered to remove noise
 * The accelaration signal was separated into body and gravity acceleration signals: 
