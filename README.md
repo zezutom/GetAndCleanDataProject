@@ -2,6 +2,16 @@
 ## Course Project
 The purpose of this project is to demonstrate ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
 
+### Dataset Description
+
+The projet touches upon an exciting area of wearable computing, where a number of big brands compete to develop clever algorithms. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+Here are the data for the project: 
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
 ### Requirements
 Create an R script called run_analysis.R that does the following:
 
@@ -14,7 +24,7 @@ Create an R script called run_analysis.R that does the following:
 ### Project Outcome
 In sync with the requirements this project comprises:
 
-1. [a tidy data set (tidy_data.csv)](https://github.com/zezutom/GetAndCleanDataProject/blob/master/tidy_data.csv) as described below 
+1. [a tidy data set (tidy_data.csv)](https://github.com/zezutom/GetAndCleanDataProject/blob/master/tidy_data.csv) based on the original data set described above
 2. [an R script (run_analysis.R)](https://github.com/zezutom/GetAndCleanDataProject/blob/master/run_analysis.R) for performing the analysis 
 3. [a code book (CodeBook.md)](https://github.com/zezutom/GetAndCleanDataProject/blob/master/CodeBook.md) that describes variables, data and any transformations or work performed to clean up the data 
 
