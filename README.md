@@ -4,7 +4,7 @@ The purpose of this project is to demonstrate ability to collect, work with, and
 
 ### Dataset Description
 
-The projet touches upon an exciting area of wearable computing, where a number of big brands compete to develop clever algorithms. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+The project taps into an exciting area of wearable computing, where a number of big brands compete to develop clever algorithms. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
