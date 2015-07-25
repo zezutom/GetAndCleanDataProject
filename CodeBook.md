@@ -31,19 +31,19 @@ The features selected for this database come from the accelerometer and gyroscop
 ### Highlights
 * The time domain signals were captured at a constant rate of 50 Hz, prefix 't' denotes time
 * The signals were then filtered to remove noise
-* The accelaration signal was separated into body and gravity acceleration signals 
+* The accelaration signal was separated into body and gravity acceleration signals: 
   * tBodyAcc-XYZ
   * tGravityAcc-XYZ
-* Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+* Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals:
   * tBodyAccJerk-XYZ
   * tBodyGyroJerk-XYZ
-* Next, the magnitude of these three-dimensional signals were calculated using the Euclidean form
+* Next, the magnitude of these three-dimensional signals were calculated using the Euclidean form:
   * tBodyAccMag
   * tGravityAccMag
   * tBodyAccJerkMag
   * tBodyGyroMag
   * tBodyGyroJerkMag
-* Finally a Fast Fourier Transform (FFT) was applied to some of these signals, prefix 'f' indicates frequency domain signals
+* Finally a Fast Fourier Transform (FFT) was applied to some of these signals, prefix 'f' indicates frequency domain signals:
   * fBodyAcc-XYZ
   * fBodyAccJerk-XYZ
   * fBodyGyro-XYZ
@@ -52,6 +52,7 @@ The features selected for this database come from the accelerometer and gyroscop
   * fBodyGyroJerkMag
 
 That leaves us with the following set of signals, suffix '-XYZ' denotes three-axial signals in the X, Y and Z directions:
+
 1. tBodyAcc-XYZ
 2. tGravityAcc-XYZ
 3. tBodyAccJerk-XYZ
