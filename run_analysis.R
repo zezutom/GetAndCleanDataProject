@@ -112,4 +112,8 @@ tidy_data <- melt(
              dcast(Subject + Activity ~ variable, mean)
              
 ## Save the result
+### 'txt' is a requirement
+write.table(tidy_data, file = "tidy_data.txt", sep = ",", row.names = FALSE)
+
+### 'csv' is an addition: it's nicely formatted on GitHub and can be easily imported into a spreadsheet
 write.table(tidy_data, file = "tidy_data.csv", sep = ",", row.names = FALSE)
