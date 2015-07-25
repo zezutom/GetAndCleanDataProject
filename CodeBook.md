@@ -75,9 +75,9 @@ The features were further combined with a variety of estimated variables, such a
 ## Transformations
 As stipulated by the requirements the following transformations were made to keep the resulting output clean and tidy:
 
-1. The training and the test sets were merged to form a single data set.
-2. Out of the broad spectrum of features only the measurements on the mean and standard deviation were considered
-3. Descriptive activity names and labels were used appropriately to increase data readability
-4. A separate tidy dataset was created as the final step of data refinement efforts
+* The training and the test sets were merged to form a single data set.
+* Out of the broad spectrum of features only the measurements on the mean and standard deviation were considered
+* Descriptive activity names and labels were used appropriately to increase data readability
+* A separate tidy dataset was created as the final step of data refinement efforts
 
 ## Other Information
