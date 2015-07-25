@@ -70,7 +70,7 @@ That leaves us with the following set of signals, suffix '-XYZ' denotes three-ax
 16. fBodyGyroMag
 17. fBodyGyroJerkMag
 
-The features were further combined with a variety of estimated variables, such as mean value, standard deviation, largest and smalles value in the set etc. This adds up to over 550 indicators in total. The file 'features.txt' lists all of the variables.
+The features were further combined with a variety of estimated variables, such as mean value, standard deviation, largest and smalles value in the set etc. This adds up to over 550 of different indicators in total. The file 'features.txt' lists all of the variables.
 
 ## Transformations
 As stipulated by the requirements the following transformations were made to keep the resulting output clean and tidy:
