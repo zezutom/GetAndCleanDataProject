@@ -88,7 +88,7 @@ Feature name adjustment example:
 * 'tBodyAcc-std()-Z'  has been changed to 'tBodyAcc_std_Z'
 * etc.
 
-The transformations are achieved by the [run_analysis.R](https://github.com/zezutom/GetAndCleanDataProject/blob/master/run_analysis.R) script, which:
+The transformations are achieved by the script called [run_analysis.R](https://github.com/zezutom/GetAndCleanDataProject/blob/master/run_analysis.R), which:
 
 1. Ensures that all non-standard R packages (dplyr, reshape2) are installed
 2. Defines a number of helper functions to promote code reuse
