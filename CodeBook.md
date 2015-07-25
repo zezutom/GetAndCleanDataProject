@@ -82,6 +82,6 @@ As stipulated by the requirements the following transformations were made to kee
 
 In addition to the aforementioned mandatory transformations, the feature names have been amended to adhere to naming standards of the R language. That allowed for an elegant use of R languague features, such as data filtering, and an increased code readability. I consider this additional transformation a minor change, which I believe doesn't have an adverse impact on the original information. Feature name adjustment example:
 
-tBodyAcc-mean()-X -> tBodyAcc_mean_X
-tBodyAcc-std()-Z  -> tBodyAcc_std_Z
-etc.
+* tBodyAcc-mean()-X -> tBodyAcc_mean_X
+* tBodyAcc-std()-Z  -> tBodyAcc_std_Z
+* etc.
