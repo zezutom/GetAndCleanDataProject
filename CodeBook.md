@@ -80,7 +80,9 @@ As stipulated by the requirements the following transformations were made to kee
 * Descriptive activity names and labels were used appropriately to increase data readability
 * A separate tidy dataset was created as the final step of data refinement efforts
 
-In addition to the aforementioned mandatory transformations, the feature names have been amended to adhere to naming standards of the R language. That allowed for an elegant use of R languague features, such as data filtering, and an increased code readability. I consider this additional transformation a minor change, which I believe doesn't have an adverse impact on the original information. Feature name adjustment example:
+In addition to the aforementioned mandatory transformations, the feature names have been amended to adhere to naming standards of the R language. That allowed for an elegant use of R languague features, such as data filtering, and an increased code readability. I consider this additional transformation a minor change, which I believe doesn't have an adverse impact on the original information. 
+
+Feature name adjustment example:
 
 * 'tBodyAcc-mean()-X' has been changed to 'tBodyAcc_mean_X'
 * 'tBodyAcc-std()-Z'  has been changed to 'tBodyAcc_std_Z'
