@@ -18,3 +18,6 @@ In sync with the requirements this project comprises:
 2. [an R script (run_analysis.R)](https://github.com/zezutom/GetAndCleanDataProject/blob/master/run_analysis.R) for performing the analysis 
 3. [a code book (CodeBook.md)](https://github.com/zezutom/GetAndCleanDataProject/blob/master/CodeBook.md) that describes variables, data and any transformations or work performed to clean up the data 
 
+### Other Resources
+* [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+* [Data Science & Wearable Computing Battle](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/)
