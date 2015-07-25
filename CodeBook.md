@@ -97,4 +97,4 @@ The transformations are achieved by the script called [run_analysis.R](https://g
 5. Loads training and test datasets and enhances column names with appropriate labels
 6. Merges the testing and the test datasets using dplyr's support for method chaining (pipe operator)
 7. Creates an independent tidy dataset based on mean and standard deviations
-8. Saves the tidy dataset as [tidy_data.csv](https://github.com/zezutom/GetAndCleanDataProject/blob/master/tidy_data.csv) so that it can be easily imported and viewed
+8. Saves the tidy dataset as [tidy_data.txt](https://github.com/zezutom/GetAndCleanDataProject/blob/master/tidy_data.txt) and [tidy_data.csv](https://github.com/zezutom/GetAndCleanDataProject/blob/master/tidy_data.csv) so that it can be easily imported and viewed
