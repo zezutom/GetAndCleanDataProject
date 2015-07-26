@@ -1,6 +1,6 @@
 # Code Book 
 This code book describes variables, data, and any transformations or work  performed to clean up the data. 
-These efforts resulted into a clean and tidy dataset - please see [tidy_data.csv](https://github.com/zezutom/GetAndCleanDataProject/blob/master/tidy_data.csv).
+These efforts resulted into a clean and tidy dataset - please see [tidy_data.txt](https://github.com/zezutom/GetAndCleanDataProject/blob/master/tidy_data.txt) and  [tidy_data.csv](https://github.com/zezutom/GetAndCleanDataProject/blob/master/tidy_data.csv).
 
 ## Data Source Details
 * Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
