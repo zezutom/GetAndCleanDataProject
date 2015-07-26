@@ -26,7 +26,7 @@ The following sensor signals were captured using the smartphone's embedded accel
 The captured signals were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See the section 'Feature Selection' below, also the file 'features_info.txt' has complete details.
 
 ## Feature Selection
-The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
+The features selected for this database come from the accelerometer and gyroscope three-axial raw signals tAcc-XYZ and tGyro-XYZ. 
 
 * The time domain signals were captured at a constant rate of 50 Hz, prefix 't' denotes time
 * The signals were then filtered to remove noise
